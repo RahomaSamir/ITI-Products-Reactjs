@@ -20,7 +20,7 @@ const Products = () => {
         <div className="container text-center">
             <div className="row equal-height justify-content-center">
             {productsData.map((productData) => (
-                <div className="col-md-4 col-sm-6 mb-5 " key={productData.id}>
+                <div className="col-lg-4 col-sm-6 mb-5 " key={productData.id}>
                  <div className="card animated-border">
                   <img src={productData.thumbnail} alt="" className="card-img-top" />
                     <div className="card-body justify-content-center">
@@ -28,9 +28,7 @@ const Products = () => {
                          <p className="card-text">{productData.description}</p>
                          <p className="card-title">${productData.price}</p>
                     </div>
-                    <div className="card-footer">
-                     <a href="#" className="btn btn-primary">Add to Cart</a>
-                            </div>
+
                         </div>
                     </div>
                 ))}
