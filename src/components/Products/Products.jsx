@@ -18,7 +18,7 @@ const Products = () => {
 [])
     return (
         <div className="container text-center">
-            <div className="row equal-height justify-content-center">
+            <div className="row equal-height justify-content-center p-6">
             {productsData.map((productData) => (
                 <div className="col-lg-4 col-sm-6 mb-5 " key={productData.id}>
                  <div className="card animated-border">

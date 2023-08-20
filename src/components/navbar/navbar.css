@@ -4,34 +4,27 @@
     background-attachment: fixed;
     font-style: italic;
     font: bold;
+   
 
 }
 .navbar-brand{
     color: #00000097;
 
+
 }
-/* Add space between nav-links */
+
 .nav-link {
     color: #000000;
     margin-right: 80px;
     transition: transform 0.4s ease-in-out;
     border: none;
     position: relative;
-    /* position: fixed; */
+
 }
 .nav-link:hover{
     color: #cbad6c;
 }
-.nav-link::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 0;
-    height: 2px;
-    background-color: #F7F1E4;
-    transition: width 0.4s ease-in-out;
-}
+
 
 .nav-link:hover {
     color: #cbad6c;

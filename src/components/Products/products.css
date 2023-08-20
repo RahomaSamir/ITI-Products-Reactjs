@@ -13,6 +13,7 @@
     position: relative;
     overflow: hidden;
     box-shadow: 1px 1px 10px 10px #F7F1E4;
+   
 }
 
 
@@ -31,7 +32,7 @@
 }
 
 .equal-height .card-img-top {
-    object-fit: cover;
+    
     height: 200px;
 }
 
